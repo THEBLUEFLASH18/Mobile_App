@@ -3,5 +3,6 @@ const submitButton = document.querySelector("#add-button")
 
 
 submitButton.addEventListener('click', ()=>{
-    console.log(loggedToCart.value)
+    const textLogged = loggedToCart.value
+    console.log(textLogged)
 })
