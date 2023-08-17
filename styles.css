@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh; /* Ensure body takes up full viewport height */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -14,17 +15,34 @@ body {
     height: 500px;
     align-items: center;
     justify-content: center;
-    border: dashed red 1px;
+    border: solid black 5px;
+    border-radius: 5px;
     flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
 input {
     color: #432000;
     background-color: #EEF0F4;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 
 button{
     color: #FDFDFD;
     background-color: #AC485A;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: .5px;
 }
