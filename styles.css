@@ -4,8 +4,14 @@ body {
     justify-content: center;
     min-height: 100vh; /* Ensure body takes up full viewport height */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
+h1 {
+    font-size: 70px;
+}
 
 
 
