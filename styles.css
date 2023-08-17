@@ -1,4 +1,30 @@
-html, body {
-    margin: 0;
-    padding: 0;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure body takes up full viewport height */
+}
+
+
+
+
+.container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border: dashed red 1px;
+    flex-direction: column;
+}
+
+
+input {
+    color: #432000;
+    background-color: #EEF0F4;
+}
+
+button{
+    color: #FDFDFD;
+    background-color: #AC485A;
 }
